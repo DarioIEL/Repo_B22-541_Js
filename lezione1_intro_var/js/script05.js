@@ -25,7 +25,7 @@ console.log(studenti);
 //Es si iscrive un'altra persona
 //Metodo push per aggiungere un elemento
 studenti.push("Luisa");
-studenti.push("Paolo")
+studenti.push("Paolo");
 console.log(studenti);
 
 //metodo sort() - ordina alfabeticamente
@@ -105,3 +105,16 @@ console.log(frutti);
 for(let i = 0; i < frutti.length; i++){
     console.log("Frutta: " + frutti[i] + " - prezzo: " + prezzi[i] + " €");
 }
+
+
+//Dato il seguente array, metti tutto in ordine dalla z alla a
+let parole = ["dado", "computer", "zucca", "palla", "albero"];
+parole.sort().reverse();
+console.log(parole);
+
+let nome = "Massimiliano";
+let emon = nome.split("").reverse().join("");
+
+console.log(emon);
+
+

@@ -14,11 +14,13 @@ let studenti = ["Paola", "Marco", "Luca", "Anna", "Laura"];
 // listaStudenti.innerHTML += "<li>" + studenti[3] + "</li>";
 // listaStudenti.innerHTML += "<li>" + studenti[4] + "</li>";
 
-studenti.forEach(stud => {
-    listaStudenti.innerHTML += "<li>" + stud +"</li>";
-});
+// studenti.forEach(stud => {
+//     listaStudenti.innerHTML += "<li>" + stud +"</li>";
+// });
+
+
 
 //  inizializzazione; condizione        ; aggiornamento
-for(let i = 0;       i < studenti.length;    i++){
+for(let i = studenti.length - 1;       i >= 0;    i--){
     listaStudenti.innerHTML += "<li>" + studenti[i] + "</li>";
 }
